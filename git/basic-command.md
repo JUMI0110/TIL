@@ -31,3 +31,21 @@ git status
 ```bash
 git commit -m(현재 상황에 대한 메모옵션) "first commit(코드의 변화 단계)"
 ```
+
+## remote add
+
+- 원격저장소 주소를 저장하는 명령어
+
+```bash
+git remote add {remote_name} {remote_url}
+git remote add origin https://github...
+```
+
+## push
+
+- 원격저장소로 branch를 업로드하는 명령어
+
+```bash
+git push {remote_name} {branch_name}
+git push origin master
+```
