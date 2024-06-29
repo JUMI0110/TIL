@@ -26,3 +26,14 @@ func_name(인수1, 인수2)
 
     `dir(__builtins__)`
 
+## 함수의 return
+- 함수가 return을 만나면 해당 값을 반환하고 함수를 종료
+- 만약 return이 없는 경우 None을 자동으로 반환
+- return은 오직 하나의 객체만 반환\
+\* 파이썬 기능적으로 두 개의 데이터를 하나의 객체로 묶어서 결과 반환 
+    ```python
+    def my_def(x):
+        return x, x * 2
+    my_def(10)
+    -> (10, 20)
+    ```
