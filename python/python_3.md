@@ -68,3 +68,64 @@ func(p1='',p2='')
 def func(*parms):
     code
 ```
+### 정의되지 않은 키워드 인수 처리하기
+- 'key=value' 형태로 값을 넣으먄 딕셔너리 형태로 변환
+
+```python
+def func(**kwrgs):
+    code...
+
+func(asdf='', qwer='')
+->{'asdf'='', 'qwer'=''}
+```
+
+### dictionary를 인수로 넣기(unpacking)
+- dictionary로 패키지화 시켜서 인수로 넣고 함수는 unpacking하여 기능
+
+```python
+def func(p1, p2, p3)
+    code
+
+func(p1, p2, p3)
+↓
+info = {
+    p1 ='',
+    p2 ='',
+    p3 ='',
+}
+func(**info)
+```
+
+### lambda 표현식
+- 함수를 축약해서 정리 -> 속도가 빠름
+```python
+lambda parameter : expression
+```
+
+### 타입힌트
+- '인수: 타입' 인수에 넣어야 할 타입을 알려주는 힌트
+
+```python
+def func(a: int, b: int)-> int:
+    code
+```
+
+### 이름공간
+- python에서 사용되는 이름(변수, 함수의 이름)들은 이름공간에 저장
+- 아래 순서대로 인지하여 기능
+
+1. Local: 정의된 함수 내부
+2. Enclosed: 상위함수
+3. Global: 함수 밖
+4. Built-in: python이 기본적으로 가지고 있는 함수 / 변수
+
+### 재귀
+- 재귀 함수는 함수 내부에서 자기 자신을 호출하는 함수
+```python
+def fact(n):
+    if n == 1:
+        return 1
+    else:
+        return fact(n-1) * n
+```
+
