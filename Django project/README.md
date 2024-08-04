@@ -3,7 +3,7 @@
 ## Django Project
 - 파이썬 기반의 웹 프레임워크 django를 사용하여 웹개발
 
-[first_pjt](#first_pjt)   
+[first_pjt](https://github.com/JUMI0110/TIL/blob/master/Django%20project/first_pjt.md)   
 [CRUD](#crud)   
 [CRUD 업데이트](#crud_update)   
 ModelForm   
