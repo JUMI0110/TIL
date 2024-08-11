@@ -6,7 +6,8 @@
 [first_pjt](https://github.com/JUMI0110/TIL/blob/master/Django%20project/first_pjt.md)   
 [CRUD](https://github.com/JUMI0110/TIL/blob/master/Django%20project/crud.md)   
 [CRUD 업데이트](https://github.com/JUMI0110/TIL/blob/master/Django%20project/crud_update.md)   
-[ModelForm](https://github.com/JUMI0110/TIL/blob/master/Django%20project/modelform.md)     
+[ModelForm](https://github.com/JUMI0110/TIL/blob/master/Django%20project/modelform.md)   
+[Login](https://github.com/JUMI0110/TIL/blob/master/Django%20project/login.md)     
 
 
 #내맘대로TIL챌린지 #동아일보 #미디어 프론티어 #글로벌소프트웨어캠퍼스 #GSC신촌
