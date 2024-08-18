@@ -10,6 +10,7 @@
 [Login](https://github.com/JUMI0110/TIL/blob/master/Django%20project/login.md)   
 [Image](https://github.com/JUMI0110/TIL/blob/master/Django%20project/image.md)   
 [html_bootstrap](https://github.com/JUMI0110/TIL/blob/master/Django%20project/html_bootstrap.md)   
+[SQL-ORM](https://github.com/JUMI0110/TIL/blob/master/Django%20project/sql-orm.md)   
 
 
 
