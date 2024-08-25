@@ -11,7 +11,7 @@
 [Image](https://github.com/JUMI0110/TIL/blob/master/Django%20project/image.md) 8월 2주차      
 [html_bootstrap](https://github.com/JUMI0110/TIL/blob/master/Django%20project/html_bootstrap.md) 8월 2주차      
 [SQL-ORM](https://github.com/JUMI0110/TIL/blob/master/Django%20project/sql-orm.md)8월 2주차   
-[Javascripts]https://github.com/JUMI0110/TIL/blob/master/Django%20project/Javascripts.md 8월 3주차   
+[Javascripts](https://github.com/JUMI0110/TIL/blob/master/Django%20project/Javascripts.md) 8월 3주차   
 
 
 
