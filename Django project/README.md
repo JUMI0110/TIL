@@ -7,10 +7,10 @@
 [CRUD](https://github.com/JUMI0110/TIL/blob/master/Django%20project/crud.md)   
 [CRUD 업데이트](https://github.com/JUMI0110/TIL/blob/master/Django%20project/crud_update.md)   
 [ModelForm](https://github.com/JUMI0110/TIL/blob/master/Django%20project/modelform.md)   
-[Login](https://github.com/JUMI0110/TIL/blob/master/Django%20project/login.md)   
-[Image](https://github.com/JUMI0110/TIL/blob/master/Django%20project/image.md)   
-[html_bootstrap](https://github.com/JUMI0110/TIL/blob/master/Django%20project/html_bootstrap.md)   
-[SQL-ORM](https://github.com/JUMI0110/TIL/blob/master/Django%20project/sql-orm.md)   
+[Login](https://github.com/JUMI0110/TIL/blob/master/Django%20project/login.md)8월 1주차      
+[Image](https://github.com/JUMI0110/TIL/blob/master/Django%20project/image.md) 8월 2주차      
+[html_bootstrap](https://github.com/JUMI0110/TIL/blob/master/Django%20project/html_bootstrap.md) 8월 2주차      
+[SQL-ORM](https://github.com/JUMI0110/TIL/blob/master/Django%20project/sql-orm.md)8월 2주차    
 
 
 
