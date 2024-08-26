@@ -51,6 +51,7 @@ $ hadoop fs -chmod g+w /user/hive/warehouse # chmod : changemode g+w : group + w
 
 ## hive server
 - $HIVE_HOME/conf/hive-site.xml 생성
+    - 클러스터 연결을 위한 세부사항을 정의한 파일
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
@@ -63,6 +64,7 @@ $ hadoop fs -chmod g+w /user/hive/warehouse # chmod : changemode g+w : group + w
 ```
 
 ### 실행 
+- hiveserver2  : 하이브를 쓰리프트 서비스로 실행 기존 하이브서버를 개선하여 인증과 다중 사용자 동시성 지원
 ```bash
 # 10000포트로 열고 , log 출력하는 옵션
 hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=DEBUG,consol
