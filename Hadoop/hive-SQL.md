@@ -202,3 +202,6 @@ GROUP BY i.title
 ORDER BY avg_rating DESC
 LIMIT 10;
 ```
+
+>  흠... SQL 문법 공부 다시 해야겠음... 기본만 기억이 남 😢
+요즘 너무 머리에 집어넣는게 많다는 핑계 아닌 핑계 열심히 해보자! 
