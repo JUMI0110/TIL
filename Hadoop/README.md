@@ -8,7 +8,8 @@
 
 [MapReduce](https://github.com/JUMI0110/TIL/blob/master/Hadoop/MapReduce.md)8월 3주차   
 [Hive](https://github.com/JUMI0110/TIL/blob/master/Hadoop/Hive.md)8월 4주차   
-[Hive-SQL](https://github.com/JUMI0110/TIL/blob/master/Hadoop/hive-SQL.md)8월 4주차      
+[Hive-SQL](https://github.com/JUMI0110/TIL/blob/master/Hadoop/hive-SQL.md)8월 4주차   
+[HiveQL_practice](https://github.com/JUMI0110/TIL/blob/master/Hadoop/HiveQL_pratice.md)8월 4주차        
 
 
 
