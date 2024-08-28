@@ -1,9 +1,11 @@
 
-
+# HiveQL practice
 ## csv serde
- - sepratorChar: 칼럼간의 구분자  
- - quoteChar: 칼럼의 값을 지정한 문자로 묶어준다.   
- - escapeChar: 칼럼에 데이터를 입력할 때 파싱하지 않고 무시
+- serde로 테이블 생성시 타입이 문자형으로 인식되는 행이 있음 
+- views 이용해서 복제테이블 생성 후 CAST함수로 형변환
+>sepratorChar: 칼럼간의 구분자     
+quoteChar: 칼럼의 값을 지정한 문자로 묶어준다.   
+escapeChar: 칼럼에 데이터를 입력할 때 파싱하지 않고 무시      
 출처: https://118k.tistory.com/451 [개발자로 살아남기:티스토리]
 ```sql
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
@@ -12,6 +14,7 @@ WITH SERDEPROPERTIES (   
     "quoteChar"     = "'",   
     "escapeChar"    = "\\")  
 ```
+## 테이블 생성
 ```sql
 CREATE EXTERNAL TABLE books (
 isbn STRING,
@@ -47,7 +50,7 @@ STORED AS TEXTFILE
 LOCATION '/user/ubuntu/input/book/book_rating'
 TBLPROPERTIES ("skip.header.line.count"="1");
 ```
-User-ID";"Location";"Age
+
 ```sql
 CREATE EXTERNAL TABLE users (
 User_ID INT,
@@ -205,6 +208,8 @@ GROUP BY year_of_publication
 ORDER BY number_of_books DESC;
 
 ```
+```bash
+숫자가 약간 다르게 나옴.. ㅎ
 +----------------------+------------------+
 | year_of_publication  | number_of_books  |
 +----------------------+------------------+
@@ -218,7 +223,8 @@ ORDER BY number_of_books DESC;
 | 1961                 | 1                |
 | 0                    | 1                |
 +----------------------+------------------+
-
+```
+**맞는 코드**
 ```sql
 SELECT b.year_of_publication, COUNT(b.book_title) AS cnt_book_title
 FROM books b
