@@ -19,6 +19,10 @@
 python 환경에서 spark 사용할 수 있는 인터페이스
 
 - 실행
+>스파크 실행 시 
+Spark context Web UI available at http://172.23.190.210:4040 웹에서 확인 가능   
+Spark context available as 'sc' (master = local[*], app id =    local-1725238945705). 미리 만들어놓은 세션   
+SparkSession available as 'spark'.   
 ```python
 rdd = sc.parallelize([1, 2, 3, 4, 5])
 
@@ -50,10 +54,16 @@ print(average_value)
 - 스파크의 모든 작업은 새로운 RDD를 만들거나 존재하는 RDD를 변형하거나 결과 계산을 위해 RDD에서 연산하는 것을 표현 
 - read-only 메모리 내용을 갱신하지 않음
 - 스파크는 액션을 할 때 까지 변환을 실행하지 않음 Action을 해야 변환하여 실행!!!
-
+```bash
+>>> rdd = sc.parallelize([1, 2, 3, 4, 5]) # 데이터 가져오기
+>>> rdd
+ParallelCollectionRDD[0] at readRDDFromFile at PythonRDD.scala:289
+>>> print(rdd.collect()) # 데이터 출력하기
+[1, 2, 3, 4, 5]
+```
 #### function
-- rdd.map(function) : Map 작업   
-- rdd.reduce(function) : Reduce
-- rdd.filter(function) : 조건 조회
+- rdd.map(function) : Map 작업  일괄적으로 데이터 처리  계획만 세워 놓는 것   
+- rdd.reduce(function) : Reduce 데이터를 조건에 맞게 정렬
+- rdd.filter(function) : 집계하는 함수 각각의 데이터들 간의 집계
 - rdd.collect() : 확인
 

@@ -1,5 +1,11 @@
 # TIL
 ## Spark
+- 대용량 데이터 처리를 위한 클러스터 컴퓨팅 프레임워크
+- 분산처리시스템에서 실행
+- 동작방식이 달라 속도가 더 빠름 
+- 저장하는 위치가 다름 (RAM) 하둡은 하드디스크(물리적)
+- 스칼라, 자바, 파이썬, R 언어의 API 지원
+
 
 [Spark_basic](https://github.com/JUMI0110/TIL/blob/master/Spark/Spark_basic.md) 9월 1주차
 
